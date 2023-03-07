@@ -27,8 +27,4 @@ public class RestTestController {
         return "Hello Sea!";
     }
 
-    @GetMapping("/sea2")
-    public String getSea2(){
-        return "Hello Sea!";
-    }
 }
