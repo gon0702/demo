@@ -21,4 +21,14 @@ public class RestTestController {
     public String getWorld(){
         return "Hello World!";
     }
+
+    @GetMapping("/sea")
+    public String getSea(){
+        return "Hello Sea!";
+    }
+
+    @GetMapping("/sea2")
+    public String getSea2(){
+        return "Hello Sea!";
+    }
 }
