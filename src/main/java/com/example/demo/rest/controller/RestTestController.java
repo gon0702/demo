@@ -27,4 +27,10 @@ public class RestTestController {
         return "Hello Sea!";
     }
 
+
+    @GetMapping("/sky")
+    public String getSky(){
+        return "Hello Sky!";
+    }
+
 }
